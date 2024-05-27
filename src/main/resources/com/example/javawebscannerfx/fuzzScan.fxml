@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="620.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javawebscannerfx.fuzzController">
+    <children>
+        <TextArea fx:id="fuzzFirstOutput" editable="false" layoutX="56.0" layoutY="25.0" prefHeight="339.0" prefWidth="230.0" />
+        <TextField fx:id="fuzzUrl" layoutX="14.0" layoutY="399.0" prefHeight="29.0" prefWidth="199.0" promptText="URL" />
+        <Button fx:id="fuzzScan" alignment="CENTER" contentDisplay="CENTER" layoutX="241.0" layoutY="467.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="138.0" style="-fx-background-color: #ff8d14;" text="Scan">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Button>
+      <TextArea fx:id="fuzzSecondOutput" editable="false" layoutX="334.0" layoutY="25.0" prefHeight="339.0" prefWidth="230.0" />
+      <TextField fx:id="fuzzWordlist" layoutX="407.0" layoutY="399.0" prefHeight="29.0" prefWidth="199.0" promptText="Wordlist's path" />
+      <TextField fx:id="fuzzMode" layoutX="211.0" layoutY="399.0" prefHeight="29.0" prefWidth="199.0" promptText="Choose mod: dir subdomain" />
+      <Button fx:id="fuzzBack" layoutX="14.0" layoutY="480.0" mnemonicParsing="false" onAction="#backStepButton" prefWidth="0.0" style="-fx-background-color: #ff8d14;" text="↩">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

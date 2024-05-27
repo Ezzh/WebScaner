@@ -1,0 +1,13 @@
+
+c	java:S116	"NRename this field "Url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú‚Ñ’
+g	java:S116"RRename this field "OPTIONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÍ©¡
+g	java:S116"RRename this field "Headers" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û¯˜…
+T
+java:S6126"2Replace this String concatenation with Text block.(Ï‚Ãùÿÿÿÿ8¿ËÃØ‘0
+V	java:S125#"<This block of commented-out lines of code should be removed.(†ï¥şÿÿÿÿ
+V	java:S125*"<This block of commented-out lines of code should be removed.(†ï¥şÿÿÿÿ
+E
+java:S1066>"/Merge this if statement with the enclosing one.(¸üò½
+E
+java:S1066O"/Merge this if statement with the enclosing one.(ÔŠó
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íá®Êıÿÿÿÿ

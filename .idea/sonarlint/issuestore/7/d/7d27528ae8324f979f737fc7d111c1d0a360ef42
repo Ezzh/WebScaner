@@ -1,0 +1,22 @@
+
+g	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8óâ³Á“0
+g	java:S112M"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ôâ³Á“0
+c	java:S116"NRename this field "Url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú‚Ñ’
+Q	java:S125"<This block of commented-out lines of code should be removed.(âËÑ×
+V	java:S125"<This block of commented-out lines of code should be removed.(Î·ÑÓÿÿÿÿÿ
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(»À¥Òþÿÿÿÿ8˜ã³Á“0
+Z	java:S106S"9Replace this use of System.out or System.err by a logger.(´É…™øÿÿÿÿ8äï¶Á“0
+T
+java:S1128"9Remove this unused import 'org.apache.http.HttpResponse'.(«°üÝÿÿÿÿÿ
+T
+java:S1128">Remove this unused import 'org.apache.http.client.HttpClient'.(¨­—ž
+Y
+java:S1128"CRemove this unused import 'org.apache.http.client.methods.HttpGet'.(‡Ê’Ú
+b
+java:S1128"GRemove this unused import 'org.apache.http.client.params.ClientPNames'.(ùáíÓþÿÿÿÿ
+e
+java:S1128"JRemove this unused import 'org.apache.http.impl.client.HttpClientBuilder'.(ÝØÒŽýÿÿÿÿ
+Z
+java:S1128"DRemove this unused import 'org.apache.http.impl.client.HttpClients'.(§¹øÿ
+g
+java:S1128	"LRemove this unused import 'org.apache.http.impl.client.LaxRedirectStrategy'.(÷¨¤Ïÿÿÿÿÿ

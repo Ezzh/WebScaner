@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="620.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javawebscannerfx.xssController">
+    <children>
+        <TextArea editable="false" layoutX="32.0" layoutY="14.0" prefHeight="339.0" prefWidth="560.0" promptText="Insert url address with &quot;payload&quot; instead of parameter that you want to check      -------------------------------------------------------------------------------------------------------------------NB: adding or removing the initial parameters that are sent along with the parameter being checked can help or hinder xss detection, try experimenting with this" fx:id="xssOutput" />
+        <TextField layoutX="131.0" layoutY="398.0" prefHeight="29.0" prefWidth="358.0" promptText="URL" fx:id="xssUrl" />
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="241.0" layoutY="467.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="138.0" style="-fx-background-color: #ff8d14;" text="Scan" fx:id="xssScan">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Button>
+      <Button layoutX="24.0" layoutY="488.0" mnemonicParsing="false" prefWidth="0.0" style="-fx-background-color: #ff8d14;" text="↩" fx:id="xssBack">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

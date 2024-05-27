@@ -1,0 +1,31 @@
+
+c	java:S116"NRename this field "Url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(⁄Ç—í
+ë
+java:S1130"{Remove the declaration of thrown exception 'java.io.FileNotFoundException', as it cannot be thrown from constructor's body.(ôùÊß
+Q	java:S125'"<This block of commented-out lines of code should be removed.(≠∏«è
+Q	java:S125."<This block of commented-out lines of code should be removed.(≠≈ù≥
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(˝Åﬁ¡˝ˇˇˇˇ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(¥⁄ÔØ˛ˇˇˇˇ
+h	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íô√á˘ˇˇˇˇ
+M	java:S106O"9Replace this use of System.out or System.err by a logger.(ö†‹
+
+W	java:S125É"<This block of commented-out lines of code should be removed.(˜€˜˙ˇˇˇˇˇ
+R	java:S125ï"<This block of commented-out lines of code should be removed.(≠∏«è
+b
+java:S1128"GRemove this unused import 'org.apache.http.client.params.ClientPNames'.(˘·Ì”˛ˇˇˇˇ
+Z
+java:S1128
+"DRemove this unused import 'org.apache.http.impl.client.HttpClients'.(ßπ¯ˇ
+g
+java:S1128"LRemove this unused import 'org.apache.http.impl.client.LaxRedirectStrategy'.(˜®§œˇˇˇˇˇ
+D
+java:S1128")Remove this unused import 'java.net.URL'.(ÒÏ¡Ñ¸ˇˇˇˇ
+c
+java:S1192%"HDefine a constant instead of duplicating this literal "http://" 6 times.(•ÁŒ¸˙ˇˇˇˇ
+k	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€æ¸’˛ˇˇˇˇ
+f	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ©⁄„
+f	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°›«§
+f	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÍ∞†
+k	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Üóë˙ˇˇˇˇ
+7
+java:S1643S"Use a StringBuilder instead.(˛ÛÄ‹˚ˇˇˇˇ

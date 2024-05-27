@@ -1,0 +1,18 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(í‡8Í²ë0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(æ†Â†ûÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(‘¦ì»úÿÿÿÿ8«–¬ÿ0
+]	java:S125!"<This block of commented-out lines of code should be removed.(ûşÒÚúÿÿÿÿ8é•‡ë0
+Q	java:S125&"<This block of commented-out lines of code should be removed.(‘¦Àû
+[
+java:S1128"9Remove this unused import 'org.apache.http.HttpResponse'.(«°üİÿÿÿÿÿ8¹Óë0
+[
+java:S1128">Remove this unused import 'org.apache.http.client.HttpClient'.(¨­—8¹Óë0
+`
+java:S1128"CRemove this unused import 'org.apache.http.client.methods.HttpGet'.(‡Ê’Ú8¹Óë0
+a
+java:S1128"DRemove this unused import 'org.apache.http.client.methods.HttpPost'.(ßó¢Ç8¹Óë0
+a
+java:S1128"DRemove this unused import 'org.apache.http.impl.client.HttpClients'.(§¹øÿ8ºÓë0
+Z
+java:S1128"=Remove this unused import 'org.apache.http.util.EntityUtils'.(Å‹»8ºÓë0
