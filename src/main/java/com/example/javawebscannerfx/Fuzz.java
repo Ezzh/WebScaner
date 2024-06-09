@@ -1,33 +1,18 @@
 package com.example.javawebscannerfx;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.params.ClientPNames;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.impl.client.LaxRedirectStrategy;
 
 import java.io.*;
 import java.net.UnknownHostException;
-import java.util.Scanner;
 
 
 public class Fuzz {
-    Scanner console = new Scanner(System.in);
     String Url;
     String mode;
     String wordlistPath;
     File wordlistFile;
-    //создаем объект FileReader для объекта File
     FileReader fr;
-    //FileReader startFr;
-    //создаем BufferedReader с существующего FileReader для построчного считывания
     BufferedReader reader;
-    //BufferedReader startReader;
-    //Кол-во строк в файле
-    //int totalLines = 0;
-    //int linesNow = 0;
+
 
     String settings(String url, String wordlist, String mode) throws IOException {
         this.mode = mode;

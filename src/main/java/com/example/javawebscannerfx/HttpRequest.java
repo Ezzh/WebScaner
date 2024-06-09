@@ -5,15 +5,10 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpOptions;
-import org.apache.http.client.params.ClientPNames;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.impl.client.LaxRedirectStrategy;
 import org.apache.http.util.EntityUtils;
 
 import java.io.*;
-import java.net.URL;
-import java.util.Scanner;
 
 public class HttpRequest {
     public HttpRequest(String url) throws FileNotFoundException {
@@ -30,20 +25,17 @@ public class HttpRequest {
     String directory;
     String parameter;
     String domain;
-    Scanner console = new Scanner(System.in);
-    String userAnswer;
+
 
     public void dir() throws IOException {
         finalUrl = "http://" + Url + "/" + directory;
         httpGet = new HttpGet(finalUrl);
-        //System.out.println(finalUrl);
         httpResponse = httpClient.execute(httpGet);
         if (httpResponse == null){
             response = "HTTP/1.1 404 Not Found";
         }else {
             response = String.valueOf(httpResponse.getStatusLine());
         }
-        //System.out.println("response: "+response);
         httpGet.releaseConnection();
     }
 
@@ -85,7 +77,6 @@ public class HttpRequest {
         }
 
         HeadersOutput = HeadersOutput + "\n" + "-------------------------------------------------------------------------------------------------\nImportant and interesting headers:" + "\n";
-        /*Important headers check*/
 
         try {
             String server = httpResponse.getFirstHeader("Server").getValue();
@@ -128,8 +119,6 @@ public class HttpRequest {
         HeadersOutput = HeadersOutput + "Done\n-------------------------------------------------------------------------------------------------\n";
         httpGet.releaseConnection();
 
-        /*String body = EntityUtils.toString(httpResponse.getEntity());
-        System.out.println(body);*/
         return HeadersOutput;
 
     }
@@ -146,7 +135,6 @@ public class HttpRequest {
 
     public String requestParam() throws IOException {
         finalUrl ="http://" + Url.replace("payload", parameter);
-        //System.out.println(finalUrl);
         httpGet = new HttpGet(finalUrl);
         httpResponse = httpClient.execute(httpGet);
         String body = EntityUtils.toString(httpResponse.getEntity());

@@ -1,14 +1,11 @@
 package com.example.javawebscannerfx;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URLEncoder;
-import java.util.Scanner;
 
 public class XssScan {
     public XssScan(String Url) {this.Url = Url;}
 
-    Scanner console = new Scanner(System.in);
     String Url;
     String startPayload = "TestStringPayload";
     String payload = "pl%22pl%3Cpl%3Epl'";

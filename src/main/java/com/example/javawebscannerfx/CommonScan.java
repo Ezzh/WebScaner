@@ -39,7 +39,6 @@ public class CommonScan {
             dirPayload = "pl%22pl%3Cpl%3Epl'";
             request.directory = dirPayload;
             page404Html = request.getHtml();
-            //System.out.println(page404Html);
 
             check(page404Html);
 
@@ -47,7 +46,7 @@ public class CommonScan {
             request.directory = dirPayload;
             page404Html = request.getHtml();
 
-            if (page404Html.contains("{{49}}")){
+            if (page404Html.contains("49")){
                 notFoundPage = notFoundPage + "Possible SSTI!" + "\n";
             }else {
                 notFoundPage = notFoundPage + "SSTI doesn't seem possible" + "\n";
